@@ -37,7 +37,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Kleenex\",\n    \"description\": \"Tissues for that runny nose\",\n    \"price\": 3.50,\n    \"inventory_quantity\": 20\n}",
+					"raw": "{\n    \"title\": \"Item\",\n    \"description\": \"Descrip\",\n    \"price\": 3.50,\n    \"inventory_quantity\": 20,\n    \"image_link\": \"weburl\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,7 +69,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/1",
+					"raw": "http://127.0.0.1:8000/api/products/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -81,7 +81,8 @@
 					"path": [
 						"api",
 						"products",
-						"1"
+						"1",
+						""
 					]
 				}
 			},
@@ -94,7 +95,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Kleenex\",\n    \"description\": \"Tissues for that runny nose\",\n    \"price\": 3.50,\n    \"inventory_quantity\": 20\n}",
+					"raw": "{\n    \"id\": 1,\n    \"title\": \"Mexican Wedding Cookies\",\n    \"description\": \"Grain-free cookies made by Siete\",\n    \"price\": 5.99,\n    \"inventory_quantity\": 6,\n    \"image_link\": \"https://images.heb.com/is/image/HEBGrocery/005046505\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/1",
+					"raw": "http://127.0.0.1:8000/api/products/1/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -114,7 +115,8 @@
 					"path": [
 						"api",
 						"products",
-						"1"
+						"1",
+						""
 					]
 				}
 			},
